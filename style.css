@@ -1,0 +1,68 @@
+body{
+  background-color: lavender;
+}
+
+.nav-top {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkseagreen;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+li {
+  display: inline;
+  float: right;
+}
+li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: black;
+}
+.active-home {
+  background-color: darkolivegreen;
+}
+.heading{
+  margin-top: 70px;
+  
+}
+.statement-photo {
+  display: flex;
+  padding-inline: 50px;
+
+
+}
+.mission-statement {
+  overflow: hidden;
+  margin-right: 10px;
+
+}
+
+
+img {
+  border-style: none;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-right: 25px;
+}
+.quote {
+  font-size: larger;
+  align-content: center;
+  
+}
+.active-about {
+  background-color: darkolivegreen;
+}
+.active.portfolio {
+  background-color: darkolivegreen;
+}
